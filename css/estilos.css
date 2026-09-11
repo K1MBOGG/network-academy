@@ -1,0 +1,63 @@
+/* Estilos generales de todas las páginas */
+body {
+    margin: 0;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    background-color: black;
+    color: #00ff00;
+}
+
+/* Encabezado principal */
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    padding: 15px;
+    background-color: #111111;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    color: #00ff00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Contenido central */
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section,
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #00ff00;
+}
+
+h2 {
+    color: white;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #111111;
+    text-align: center;
+}
