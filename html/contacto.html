@@ -40,6 +40,35 @@
                 </p>
             </address>
         </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <p>Completá todos los campos para preparar tu consulta.</p>
+
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" name="nombre" maxlength="60" autocomplete="name" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" maxlength="100" autocomplete="email" required>
+
+                <label for="motivo">Motivo de la consulta</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="">Seleccioná una opción</option>
+                    <option value="contenido">Consulta sobre contenidos</option>
+                    <option value="actividad">Consulta sobre actividades</option>
+                    <option value="sugerencia">Sugerencia para el sitio</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="6" maxlength="500" required></textarea>
+
+                <div class="acciones-formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
     </main>
 
     <footer>

@@ -8,9 +8,9 @@ y explicaciones breves.
 
 - Inicio y presentación del proyecto.
 - Propósito y objetivos de Network Academy.
-- Fundamentos de redes, modelo OSI y protocolos.
+- Fundamentos de redes, diagrama de conexión, modelo OSI y protocolos.
 - Herramientas básicas de diagnóstico de red.
-- Información de contacto y acceso al repositorio.
+- Información de contacto, formulario y acceso al repositorio.
 
 ## Estructura
 
@@ -19,6 +19,8 @@ network-academy/
 ├── index.html
 ├── css/
 │   └── estilos.css
+├── img/
+│   └── diagrama-red.svg
 └── html/
     ├── contacto.html
     ├── fundamentos-redes.html
