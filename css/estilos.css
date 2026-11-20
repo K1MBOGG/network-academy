@@ -10,15 +10,17 @@ body {
 /* Enlace accesible para saltar el menú con el teclado */
 .enlace-saltar {
     position: absolute;
-    left: -1000px;
-    top: 10px;
+    top: -60px;
+    left: 10px;
+    z-index: 10;
     padding: 10px;
     background-color: white;
     color: black;
+    transition: top 0.2s;
 }
 
 .enlace-saltar:focus {
-    left: 10px;
+    top: 10px;
 }
 
 /* Encabezado principal */
@@ -47,6 +49,7 @@ nav a {
     color: #00ff00;
     font-weight: bold;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 nav a:hover {
@@ -70,11 +73,17 @@ main {
     margin: 30px auto;
 }
 
+main:focus {
+    outline: none;
+}
+
 section,
 article {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #00ff00;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.25);
 }
 
 h2 {
@@ -146,6 +155,8 @@ form textarea {
     background-color: #111111;
     color: #00ff00;
     font-family: inherit;
+    border-radius: 4px;
+    transition: border-color 0.2s;
 }
 
 form textarea {
@@ -170,16 +181,32 @@ form button:focus {
 button {
     padding: 10px 20px;
     border: 1px solid #00ff00;
+    border-radius: 4px;
     background-color: #00ff00;
     color: black;
     font-family: inherit;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
 }
 
 button:hover {
     background-color: white;
     border-color: white;
+}
+
+.resultado-formulario {
+    min-height: 24px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.mensaje-error {
+    color: #ff4d4d;
+}
+
+.mensaje-exito {
+    color: white;
 }
 
 /* Network Quiz */

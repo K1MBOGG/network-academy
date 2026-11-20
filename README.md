@@ -11,7 +11,7 @@ y explicaciones breves.
 - Fundamentos de redes, diagrama de conexión, modelo OSI y protocolos.
 - Herramientas básicas de diagnóstico de red.
 - Network Quiz con preguntas sobre los contenidos del sitio.
-- Información de contacto, formulario y acceso al repositorio.
+- Información de contacto, formulario con validación y acceso al repositorio.
 
 ## Estructura
 
@@ -21,8 +21,10 @@ network-academy/
 ├── css/
 │   └── estilos.css
 ├── img/
-│   └── diagrama-red.svg
+│   ├── diagrama-red.svg
+│   └── favicon.svg
 ├── js/
+│   ├── contacto.js
 │   └── script.js
 └── html/
     ├── contacto.html
@@ -36,7 +38,7 @@ network-academy/
 
 - HTML5 para el contenido y la estructura semántica.
 - CSS3 para los estilos, la navegación con Flexbox y la adaptación a pantallas pequeñas.
-- JavaScript para el cuestionario, la manipulación del DOM y los eventos.
+- JavaScript para el cuestionario, la validación del formulario, el DOM y los eventos.
 
 ## Cómo visualizar el proyecto
 
