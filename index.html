@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="José Oliva">
+    <meta name="description" content="Sitio educativo con contenidos introductorios sobre redes informáticas y herramientas de diagnóstico.">
+    <meta name="keywords" content="redes informáticas, networking, modelo OSI, herramientas de red">
     <title>Network Academy</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <header>
+    <a class="enlace-saltar" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header class="encabezado-principal">
         <h1>Network Academy</h1>
         <p>Un espacio para aprender sobre networking.</p>
     </header>
 
-    <nav>
+    <nav class="navegacion-principal" aria-label="Navegación principal">
         <ul>
-            <li><a href="index.html">Inicio</a></li>
+            <li><a class="enlace-activo" href="index.html" aria-current="page">Inicio</a></li>
             <li><a href="html/quienes-somos.html">Quiénes somos</a></li>
             <li><a href="html/fundamentos-redes.html">Fundamentos de redes</a></li>
             <li><a href="html/herramientas-red.html">Herramientas de red</a></li>
@@ -23,7 +28,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="contenido-principal">
         <section>
             <h2>Bienvenidos</h2>
             <p>
