@@ -182,6 +182,57 @@ button:hover {
     border-color: white;
 }
 
+/* Network Quiz */
+.contenedor-quiz {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.progreso-quiz {
+    color: white;
+    font-weight: bold;
+}
+
+.opciones-quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.opcion-quiz {
+    width: 100%;
+    background-color: #111111;
+    color: #00ff00;
+    text-align: left;
+}
+
+.opcion-quiz.respuesta-correcta {
+    background-color: #00ff00;
+    color: black;
+}
+
+.opcion-quiz.respuesta-incorrecta {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+    color: black;
+}
+
+.mensaje-quiz {
+    min-height: 24px;
+    color: white;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.resultado-quiz {
+    text-align: center;
+}
+
 /* Pie de página */
 footer {
     margin-top: 30px;

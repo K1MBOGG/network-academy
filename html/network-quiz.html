@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="José Oliva">
+    <meta name="description" content="Cuestionario interactivo sobre fundamentos y herramientas de redes informáticas.">
+    <meta name="keywords" content="Network Quiz, redes informáticas, cuestionario, modelo OSI, protocolos">
+    <title>Network Quiz - Network Academy</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <a class="enlace-saltar" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header class="encabezado-principal">
+        <h1>Network Quiz</h1>
+        <p>Poné a prueba tus conocimientos sobre redes informáticas.</p>
+    </header>
+
+    <nav class="navegacion-principal" aria-label="Navegación principal">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="fundamentos-redes.html">Fundamentos de redes</a></li>
+            <li><a href="herramientas-red.html">Herramientas de red</a></li>
+            <li><a class="enlace-activo" href="network-quiz.html" aria-current="page">Network Quiz</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main id="contenido-principal">
+        <section class="contenedor-quiz">
+            <div id="cuestionario">
+                <p id="progreso" class="progreso-quiz"></p>
+                <h2 id="pregunta"></h2>
+                <div id="opciones" class="opciones-quiz"></div>
+                <p id="mensaje" class="mensaje-quiz" aria-live="polite"></p>
+                <button id="siguiente" class="boton-siguiente" type="button" disabled>Siguiente</button>
+            </div>
+
+            <div id="resultado" class="resultado-quiz" hidden>
+                <h2>Resultado final</h2>
+                <p id="puntaje-final"></p>
+                <button id="reiniciar" type="button">Reiniciar cuestionario</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabajo práctico de Introducción a la Programación Web.</p>
+    </footer>
+</body>
+</html>
